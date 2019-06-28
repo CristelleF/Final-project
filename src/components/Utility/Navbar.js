@@ -31,10 +31,25 @@ export default class Navbar extends Component {
           <Link className="dropdown-item" to="http://www.section8listmass.org/">Housing Listings</Link>
         </div>
       </li>
+      <li className="nav-item">
+        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Profile</a>
+      </li>
     </ul>
+    <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Username" aria-label="name"/>
+      <div class="col-auto">
+      <div class="form-check mb-2">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck"/>
+        <label class="form-check-label" for="autoSizingCheck">
+          Remember me
+        </label>
+      </div>
+    </div>
+      <Link className="btn btn-outline-success my-2 my-sm-0" to="/profile" type="submit">Login</Link>
+    </form> 
   </div>
 </nav> 
-            </div>
+  </div>
         )
     }
 }
