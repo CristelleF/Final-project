@@ -5,43 +5,33 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="container">
-        <h1>Contact Info</h1>
-        <p>If you would like to subscribe to my blog feel free to leave your info.
+        <h1 className="text-center">Contact Info</h1>
+        <br></br>
+        <p className="h6" >If you would like to join the community, create a profile, post your own thoughts, follow other users, and share resources. Please click the Sign Up button below.
         </p>
 <form>
-  <div className="form-row align-items-center">
-    <div className="col-auto">
-      <label className="sr-only" for="inlineFormInput">Name</label>
-      <input type="text" className="form-control mb-2" id="inlineFormInput" placeholder="Username"/>
-    </div>
-    <div className="col-auto">
-      <label className="sr-only" for="inlineFormInputGroup">Username</label>
-      <div className="input-group mb-2">
-        <div className="input-group-prepend">
-          <div className="input-group-text">Email</div>
-        </div>
-        <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Enter email address"/>
-      </div>
-    </div>
     <div className="button">
-      <Link to="/Signup" type="submit" className="btn btn-success ">Join</Link>
+      <Link to="/Signup" type="submit" className="btn btn-success btn-lg btn-block ">Sign Up</Link>
     </div>
-  </div>
 </form>
-<p> Also if you have any questions or topics you'd like to address feel free to leave it below.</p>
+<div>
+  <br></br>
+</div>
+<p className="h6"> If you have any questions or topics you'd like to address, but don't feel like creating a profile feel free to leave it below.</p>
+<div>
+  <br></br>
+</div>
 <div className="media">
 <i className="far fa-question-circle"></i>
   <div className="media-body">
     <h5 className="mt-1"> Have a question</h5>
     <textarea class="form-control" aria-label="With textarea"></textarea>
     <div><br></br>
-<Link type="button" className="btn btn-outline-success btn-lg float-right">Ask</Link></div>
+<Link type="button" className="btn btn-outline-success btn-lg">Ask</Link></div>
 <br></br>
 
     <div className="media mt-3">
-      <a className="mr-3" to="#">
       <i className="far fa-comment-dots"></i>
-      </a>
       <div className="media-body">
         <h5 className="mt-0">Got an opinion</h5>
         <textarea className="form-control" aria-label="With textarea"></textarea>
@@ -56,8 +46,9 @@ export default class Contact extends Component {
 <div></div>
 <br></br>
 <br></br>
-<Link to="/" type="button" className="btn btn-outline-success btn-lg btn-block">Go back to Home page</Link>
-<Link to="/about" type="button" className="btn btn-outline-success btn-lg btn-block">Go back to About page</Link>
+<Link to="/" type="button" className="btn btn-outline-success btn-lg">Go back to Home page</Link>
+<br></br>
+<Link to="/about" type="button" className="btn btn-outline-success btn-lg">Go back to About page</Link>
 </div>
         )
     }

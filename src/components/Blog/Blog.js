@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default class Blog extends Component {
   onClick = () => {
     window.$("#exampleModalScrollable").modal("hide");
-    this.props.history.push("/contact");
+    this.props.history.push("/");
   };
 
   render() {
@@ -76,7 +76,7 @@ export default class Blog extends Component {
                   Close
                 </button>
                 <button onClick={this.onClick} className="btn btn-info">
-                  Join my blog
+                  Subscibe 
                 </button>
               </div>
             </div>

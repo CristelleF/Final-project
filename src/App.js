@@ -8,6 +8,7 @@ import Signup from './components/Signup';
 import Profile from './components/Profile';
 import Blog from './components/Blog/Blog';
 import Navbar from './components/Utility/Navbar';
+import admin from './components/Admin/admin';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route exact path= "/Signup" component={Signup}/>
       <Route exact path= "/Profile" component={Profile}/>
       <Route exact path= "/Blog" component={Blog}/>
+      <Route exact path= "/admin" component={admin}/>
     </Switch>
   </Router>
   );

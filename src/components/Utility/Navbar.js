@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 
+         
 export default class Navbar extends Component {
     render() {
         return (
@@ -26,9 +27,10 @@ export default class Navbar extends Component {
           Resources
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link className="dropdown-item" to="https://suicidepreventionlifeline.org/">Suicide Prevention</Link>
-          <Link className="dropdown-item" to="https://www.foodpantries.org/st/massachusetts">Food Pantries</Link>
-          <Link className="dropdown-item" to="http://www.section8listmass.org/">Housing Listings</Link>
+          <a className="dropdown-item" href="https://suicidepreventionlifeline.org/">Suicide Prevention</a>
+          <a className="dropdown-item" href="https://www.foodpantries.org/st/massachusetts">Food Pantries</a>
+          <a className="dropdown-item" href="http://www.section8listmass.org/">Housing Listings</a>
+          <a className="dropdown-item" href="https://drugabuse.com/addiction/drug-abuse-hotlines/">Drug Abuse Helpline</a>
         </div>
       </li>
       <li className="nav-item">
