@@ -67,12 +67,31 @@ export default class Home extends Component {
                 </div>
                 </div>
                 <div className="text-center">
+                    <button
+                      
+                      type="submit"
+                      className="btn btn-success btn-block"
+                    >
+                      Subscribe
+                    </button>
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Thank You!</strong> You can check your email for alerts on the most recent blog.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+                    <div>
+                        <br></br>
+                        <p className="h6">If you want to join, create a profile, and start making connections. Click the Join the community button below.  </p>
+                    </div>
+                </div>
+                <div className="text-center">
                     <Link
                       to="/Signup"
                       type="submit"
                       className="btn btn-success btn-block"
                     >
-                      Join
+                      Join the community
                     </Link>
                 </div>
             </form>

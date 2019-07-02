@@ -43,14 +43,14 @@ export default class Blog extends Component {
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="modal-title" id="exampleModalScrollableTitle" />
-                <button
-                  type="button"
-                  className="close"
+                <p 
+                  type="title"
+                  className="h3"
                   data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
+                  
+                >What I have to say today...
+             
+                </p>
               </div>
               <div className="modal-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -82,17 +82,40 @@ export default class Blog extends Component {
             </div>
           </div>
         </div>
-        <section class="row">
+        <section className="row">
           <div className="card text-left" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">June 2016</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, voluptate?
               </p>
-              <Link to="#" className="btn btn-dark">
-                Read More..
-              </Link>
+             {/*} <!-- Button trigger modal -->*/}
+<button type="button" className="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+  Read More..
+</button>
+
+{/*<!-- Modal -->*/}
+<div className="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">June 2016</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quis minima accusantium expedita natus debitis facere veniam doloremque, obcaecati, rem possimus deleniti facilis alias iure soluta dolorem commodi nostrum! Nostrum laborum modi, veritatis, fuga, vel commodi dolore id maiores vitae omnis quae ea? Corporis laboriosam quo recusandae dicta debitis qui.
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Next Blog</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
             </div>
           </div>
           <div className="card text-center" style={{ width: "18rem" }}>
@@ -102,7 +125,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-danger">
+              <Link to="/pw" className="btn btn-danger">
                 Read More..
               </Link>
             </div>
@@ -115,7 +138,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-primary">
+              <Link to="/pw" className="btn btn-primary">
                 Read More..
               </Link>
             </div>
@@ -127,7 +150,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-secondary">
+              <Link to="/pw" className="btn btn-secondary">
                 Read More..
               </Link>
             </div>
@@ -140,7 +163,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-success">
+              <Link to="/pw" className="btn btn-success">
                 Read More..
               </Link>
             </div>
@@ -152,7 +175,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-warning">
+              <Link to="/pw" className="btn btn-warning">
                 Read More..
               </Link>
             </div>
@@ -165,7 +188,7 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-info">
+              <Link to="/pw" className="btn btn-info">
                 Read More..
               </Link>
             </div>
@@ -177,12 +200,22 @@ export default class Blog extends Component {
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <Link to="#" className="btn btn-success">
+              <Link to="/pw" className="btn btn-success">
                 Read More..
               </Link>
             </div>
           </div>
         </section>
+        <br></br>
+        <div className="container">
+        <div className="button">
+<Link to="/" type="submit" className="btn btn-outline-success btn-sm btn-block">Go back to Home page</Link></div>
+<div className="button">
+  <div>
+    <br></br>
+  </div>
+<Link to="/contact" type="submit" className="btn btn-outline-success btn-sm btn-block">Sign up or ask a question</Link></div>
+</div>
       </div>
     );
   }

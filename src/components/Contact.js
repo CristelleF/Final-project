@@ -27,7 +27,13 @@ export default class Contact extends Component {
     <h5 className="mt-1"> Have a question</h5>
     <textarea class="form-control" aria-label="With textarea"></textarea>
     <div><br></br>
-<Link type="button" className="btn btn-outline-success btn-lg">Ask</Link></div>
+<button type="button" className="btn btn-outline-success btn-lg">Ask</button>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Got it!</strong> You can check back in a few days for an answer.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div></div>
 <br></br>
 
     <div className="media mt-3">
@@ -41,14 +47,20 @@ export default class Contact extends Component {
 </div>
 <div></div>
 <br></br>
-<Link type="button" className="btn btn-outline-success btn-lg float-right">Comment</Link>
+<div>
+<button type="button" className="btn btn-outline-success btn-lg float-right">Comment</button><div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Got it!</strong> Your comment will be posted anonymously.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div></div>
 <br></br>
 <div></div>
 <br></br>
 <br></br>
-<Link to="/" type="button" className="btn btn-outline-success btn-lg">Go back to Home page</Link>
+<Link to="/" type="button" className="btn btn-outline-success btn-lg btn-block">Go back to Home page</Link>
 <br></br>
-<Link to="/about" type="button" className="btn btn-outline-success btn-lg">Go back to About page</Link>
+<Link to="/about" type="button" className="btn btn-outline-success btn-lg btn-block">Go back to About page</Link>
 </div>
         )
     }
