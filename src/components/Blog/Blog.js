@@ -120,10 +120,9 @@ export default class Blog extends Component {
           </div>
           <div className="card text-center" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">August 2016</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam numquam nobis fuga esse blanditiis reiciendis!
               </p>
               <Link to="/pw" className="btn btn-danger">
                 Read More..
@@ -133,10 +132,9 @@ export default class Blog extends Component {
 
           <div className="card text-center" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">October 2016</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur libero cum eaque totam dolore aliquam.
               </p>
               <Link to="/pw" className="btn btn-primary">
                 Read More..
@@ -145,10 +143,9 @@ export default class Blog extends Component {
           </div>
           <div className="card text-right" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">December 2016</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo quis sequi quibusdam architecto omnis porro fuga commodi autem illo..
               </p>
               <Link to="/pw" className="btn btn-secondary">
                 Read More..
@@ -158,10 +155,9 @@ export default class Blog extends Component {
 
           <div className="card text-left" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">January 2017</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis suscipit eos ipsa sapiente, officia at.
               </p>
               <Link to="/pw" className="btn btn-success">
                 Read More..
@@ -170,10 +166,9 @@ export default class Blog extends Component {
           </div>
           <div className="card text-center" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">March 2017</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro labore quaerat nisi itaque quibusdam!
               </p>
               <Link to="/pw" className="btn btn-warning">
                 Read More..
@@ -183,10 +178,9 @@ export default class Blog extends Component {
 
           <div className="card text-center" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">June 2017</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere ex perferendis unde veritatis! Ullam velit laborum doloremque laboriosam architecto.
               </p>
               <Link to="/pw" className="btn btn-info">
                 Read More..
@@ -195,10 +189,134 @@ export default class Blog extends Component {
           </div>
           <div className="card text-right" style={{ width: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">September 2017</h5>
               <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem odit nostrum temporibus, repellat ut error!
+              </p>
+              <Link to="/pw" className="btn btn-success">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">November 2017</h5>
+              <p className="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam numquam nobis fuga esse blanditiis reiciendis!
+              </p>
+              <Link to="/pw" className="btn btn-danger">
+                Read More..
+              </Link>
+            </div>
+          </div>
+
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">January 2018</h5>
+              <p className="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur libero cum eaque totam dolore aliquam.
+              </p>
+              <Link to="/pw" className="btn btn-primary">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-right" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">March 2018</h5>
+              <p className="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo quis sequi quibusdam architecto omnis porro fuga commodi autem illo..
+              </p>
+              <Link to="/pw" className="btn btn-secondary">
+                Read More..
+              </Link>
+            </div>
+          </div>
+
+          <div className="card text-left" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">June 2018</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis suscipit eos ipsa sapiente, officia at.
+              </p>
+              <Link to="/pw" className="btn btn-success">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">September 2018</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro labore quaerat nisi itaque quibusdam!
+              </p>
+              <Link to="/pw" className="btn btn-warning">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">November 2018</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro labore quaerat nisi itaque quibusdam!
+              </p>
+              <Link to="/pw" className="btn btn-dark">
+                Read More..
+              </Link>
+            </div>
+          </div>
+
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">January 2019</h5>
+              <p className="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere ex perferendis unde veritatis! Ullam velit laborum doloremque laboriosam architecto.
+              </p>
+              <Link to="/pw" className="btn btn-info">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-right" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">March 2019</h5>
+              <p className="card-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem odit nostrum temporibus, repellat ut error!
+              </p>
+              <Link to="/pw" className="btn btn-danger">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">May 2019</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro labore quaerat nisi itaque quibusdam!
+              </p>
+              <Link to="/pw" className="btn btn-primary">
+                Read More..
+              </Link>
+            </div>
+          </div>
+
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">June 2019</h5>
+              <p className="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere ex perferendis unde veritatis! Ullam velit laborum doloremque laboriosam architecto.
+              </p>
+              <Link to="/pw" className="btn btn-info">
+                Read More..
+              </Link>
+            </div>
+          </div>
+          <div className="card text-right" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">July 2019</h5>
+              <p className="card-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem odit nostrum temporibus, repellat ut error!
               </p>
               <Link to="/pw" className="btn btn-success">
                 Read More..
@@ -216,6 +334,8 @@ export default class Blog extends Component {
   </div>
 <Link to="/contact" type="submit" className="btn btn-outline-success btn-sm btn-block">Sign up or ask a question</Link></div>
 </div>
+<br />
+
       </div>
     );
   }
