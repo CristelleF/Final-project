@@ -24,7 +24,7 @@ export default class Footer extends Component {
      {/*} <!-- Grid column -->*/}
       <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Shelter Services</h6>
-        <p>If you are at risk of or currently experiencing homelessness, the first step is to get in touch with the shelter system in your community.You may need to call a hotline or go to a community-designated organization for homeless services..</p>
+        <p>If you are at risk of or currently experiencing homelessness, the first step is to get in touch with the shelter system in your community.You may need to call Linkhotline or go to Linkcommunity-designated organization for homeless services..</p>
       </div>
       {/*<!-- Grid column -->*/}
 
@@ -34,16 +34,16 @@ export default class Footer extends Component {
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">The Continuum of Care (CoC)</h6>
         <p>
-          <a href="https://resources.hud.gov/">Continuum of Care</a>
+          <Link to="https://resources.hud.gov/">Continuum of Care</Link>
         </p>
         <p>
-          <a href="http://www.211.org/">Local 2-1-1</a>
+          <Link to="http://www.211.org/">Local 2-1-1</Link>
         </p>
         <p>
-          <a href="http://nationalhomeless.org/references/need-help/">National Homelessness</a>
+          <Link to="http://nationalhomeless.org/references/need-help/">National Homelessness</Link>
         </p>
         <p>
-          <a href="https://www.mass.gov/orgs/department-of-transitional-assistance/locations?_page=1">DTA Office Locations</a>
+          <Link to="https://www.mass.gov/orgs/department-of-transitional-assistance/locations?_page=1">DTLinkOffice Locations</Link>
         </p>
       </div>
      {/*} <!-- Grid column -->*/}
@@ -54,16 +54,16 @@ export default class Footer extends Component {
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
         <p>
-          <a href="https://www.nafcclinics.org/find-clinic">Find Free Clinics</a>
+          <Link to="https://www.nafcclinics.org/find-clinic">Find Free Clinics</Link>
         </p>
         <p>
-          <a href="https://www.va.gov/HOMELESS/NationalCallCenter.asp">Veterans</a>
+          <Link to="https://www.va.gov/HOMELESS/NationalCallCenter.asp">Veterans</Link>
         </p>
         <p>
-          <a href="https://www.thehotline.org/help/path-to-safety/">Domestic Violence</a>
+          <Link to="https://www.thehotline.org/help/path-to-safety/">Domestic Violence</Link>
         </p>
         <p>
-          <a href="https://www.1800runaway.org/">Young Adults & Teens</a>
+          <Link to="https://www.1800runaway.org/">Young Adults & Teens</Link>
         </p>
       </div>
 
@@ -86,9 +86,9 @@ export default class Footer extends Component {
 
         {/*<!--Copyright-->*/}
         <p className="text-center text-md-left">© 2019 Copyright:
-          <a href="/">
+          <Link to="/">
             <strong> Homeless in MA</strong>
-          </a>
+          </Link>
         </p>
 
       </div>
@@ -101,24 +101,24 @@ export default class Footer extends Component {
         <div className="text-center text-md-right">
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <a href="https://www.facebook.com/" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <Link to="https://www.facebook.com/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-facebook-f"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="https://twitter.com/?lang=en" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <Link to="https://twitter.com/?lang=en" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-twitter"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F&followup=https%3A%2F%2Fplus.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <Link to="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F&followup=https%3A%2F%2Fplus.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-google-plus-g"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/feed/" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <Link to="https://www.linkedin.com/feed/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-linkedin-in"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

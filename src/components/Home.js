@@ -3,19 +3,32 @@ import { Link } from "react-router-dom";
 
 export default class Home extends Component {
   state = {
-    showAlert: false
+    showAlert: false,
+    username: "",
+    email: ""
   }
 
   onSubmit = e => {
     e.preventDefault();
+    // TODO: Send information to server
+
+    // Clear the form and show alert
     this.setState({
-      showAlert: true
+      username: "",
+      showAlert: true,
+      email: ""
     })
   }
 
   closeAlert = () => {
     this.setState({
       showAlert: false
+    })
+  }
+
+  onChange = e => {
+    this.setState({
+      [e.target.name]: e.target.value
     })
   }
 
@@ -54,31 +67,31 @@ export default class Home extends Component {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <label className="sr-only" for="inlineFormInput">
-                        Name
-                      </label>
                       <input
                         type="text"
                         className="form-control"
                         id="inlineFormInput"
                         placeholder="Username"
+                        name="username"
+                        onChange={this.onChange}
+                        value={this.state.username}
                       />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <label className="sr-only" for="inlineFormInputGroup">
-                        Username
-                      </label>
                       <div className="input-group mb-2">
                         <div className="input-group-prepend">
                           <div className="input-group-text">Email</div>
                         </div>
                         <input
-                          type="text"
+                          type="email"
                           className="form-control"
                           id="inlineFormInputGroup"
                           placeholder="Enter email address"
+                          name="email"
+                          onChange={this.onChange}
+                          value={this.state.email}
                         />
                       </div>
                     </div>

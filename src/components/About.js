@@ -8,32 +8,7 @@ export default class About extends Component {
                <p className= "text-center h1">How it all Started</p> 
                <p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique beatae quasi, blanditiis harum nam ut consequatur. Explicabo exercitationem animi natus? Eos sed culpa tenetur eveniet atque dolor aperiam neque est quidem debitis nam sequi, aliquid porro perspiciatis, harum earum? Magni hic neque iste culpa quaerat nesciunt ea accusantium quam dolore vel, asperiores dolorum esse? Incidunt qui architecto, sit explicabo error voluptatibus cumque sequi, molestiae nesciunt recusandae molestias, vitae quidem quisquam eius ullam repellendus consequatur. Repudiandae, aperiam voluptas neque dignissimos, voluptatibus iure ipsum perspiciatis veritatis quo voluptatum similique ducimus cupiditate ab beatae inventore! Libero magni unde suscipit modi, ipsa tempora, ad iusto molestiae minus accusantium earum fuga eius dolores cumque vel aspernatur quia officia fugiat. Sit laboriosam obcaecati molestiae quis vitae reprehenderit, assumenda itaque sapiente nemo perspiciatis eius quod. Hic molestiae reprehenderit impedit. Ex culpa expedita illum tempora vel deserunt animi optio. Fugiat, temporibus! Eaque fugiat alias corrupti accusantium repudiandae dolorum.</p>
                <br />
-               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-  <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="../img/home.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="../img/images1.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="../img.images2.jpg" className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
-</div>
+             
 <div className="button">
 <Link to="/" type="submit" className="btn btn-outline-success btn-lg btn-block">Go back to Home page</Link></div>
 <div className="button">
