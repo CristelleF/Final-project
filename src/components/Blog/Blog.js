@@ -42,7 +42,7 @@ export default class Blog extends Component {
           <div className="modal-dialog modal-dialog-scrollable" role="document">
             <div className="modal-content">
               <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalScrollableTitle" />
+                <h5 className="modal-title" id="exampleModalScrollableTitle" >
                 <p 
                   type="title"
                   className="h3"
@@ -51,6 +51,7 @@ export default class Blog extends Component {
                 >What I have to say today...
              
                 </p>
+                </h5>
               </div>
               <div className="modal-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

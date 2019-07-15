@@ -75,7 +75,7 @@ export default class Signup extends Component {
       </div>
     </div>
   </div>
-  <Link className="btn btn-info"  to="/profile" type="submit">Join the Community</Link>
+  <Link className="btn btn-info" to="/profile" type="submit">Join the Community</Link>
 </form>
             </div>
         )
