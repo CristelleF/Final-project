@@ -22,10 +22,10 @@ export default class Profile extends Component {
   <div className="card">
     <div className="card-header blue lighten-3 z-depth-1" role="tab" id="heading96">
       <h5 className="text-uppercase mb-0 py-1">
-        <Link className="white-text font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true"
+        <a className="white-text font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true"
           aria-controls="collapse96">
           Profile #1
-        </Link>
+        </a>
       </h5>
     </div>
     <div id="collapse96" className="collapse show" role="tabpanel" aria-labelledby="heading96"
@@ -52,10 +52,10 @@ export default class Profile extends Component {
   <div className="card">
     <div className="card-header blue lighten-3 z-depth-1" role="tab" id="heading97">
       <h5 className="text-uppercase mb-0 py-1">
-        <Link className="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse97"
+        <a className="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse97"
           aria-expanded="false" aria-controls="collapse97">
           Profile #2
-        </Link>
+        </a>
       </h5>
     </div>
     <div id="collapse97" className="collapse" role="tabpanel" aria-labelledby="heading97"

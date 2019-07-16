@@ -88,7 +88,7 @@ export default class Blog extends Component {
             <div className="card-body">
               <h5 className="card-title">June 2016</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, voluptate?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur assumenda quisquam unde laboriosam excepturi eligendi ducimus minus doloribus dignissimos?
               </p>
              {/*} <!-- Button trigger modal -->*/}
 <button type="button" className="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
@@ -110,36 +110,77 @@ export default class Blog extends Component {
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <Link to="/pw" className="btn btn-primary">Next Blog</Link>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+     </div>
+          <div className="card text-center" style={{ width: "18rem" }}>
+            <div className="card-body">
+              <h5 className="card-title">August 2016</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quidem aut repellendus quia voluptates odio? Facere in aperiam amet ab, iure aspernatur nesciunt voluptatibus, magni error veritatis, iusto et animi!
+              </p>
+                 {/*} <!-- Button trigger modal -->*/}
+<button type="button" className="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+  Read More..
+</button>
+
+{/*<!-- Modal -->*/}
+<div className="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">August 2016</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vero eos, quia fuga quibusdam eligendi consequatur architecto corporis nobis nihil soluta tempore modi ut veritatis!
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" className="btn btn-primary">Next Blog</button>
       </div>
     </div>
   </div>
 </div>
-
-            
-            </div>
-          </div>
-          <div className="card text-center" style={{ width: "18rem" }}>
-            <div className="card-body">
-              <h5 className="card-title">August 2016</h5>
-              <p className="card-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam numquam nobis fuga esse blanditiis reiciendis!
-              </p>
-              <Link to="/pw" className="btn btn-danger">
-                Read More..
-              </Link>
             </div>
           </div>
 
-          <div className="card text-center" style={{ width: "18rem" }}>
+          <div className="card text-left" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">October 2016</h5>
               <p className="card-text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur libero cum eaque totam dolore aliquam.
-              </p>
-              <Link to="/pw" className="btn btn-primary">
-                Read More..
-              </Link>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum illo id nam nemo voluptas sapiente repellat odio, mollitia error, totam veritatis cumque similique nisi?
+              </p> {/*} <!-- Button trigger modal -->*/}
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Read More..
+</button>
+
+{/*<!-- Modal -->*/}
+<div className="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+        ...
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Next Blog</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
           </div>
           <div className="card text-right" style={{ width: "18rem" }}>

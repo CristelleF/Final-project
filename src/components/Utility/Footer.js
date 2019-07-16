@@ -34,16 +34,16 @@ export default class Footer extends Component {
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">The Continuum of Care (CoC)</h6>
         <p>
-          <Link to="https://resources.hud.gov/">Continuum of Care</Link>
+          <a href="https://resources.hud.gov/">Continuum of Care</a>
         </p>
         <p>
-          <Link to="http://www.211.org/">Local 2-1-1</Link>
+          <a href="http://www.211.org/">Local 2-1-1</a>
         </p>
         <p>
-          <Link to="http://nationalhomeless.org/references/need-help/">National Homelessness</Link>
+          <a href="http://nationalhomeless.org/references/need-help/">National Homelessness</a>
         </p>
         <p>
-          <Link to="https://www.mass.gov/orgs/department-of-transitional-assistance/locations?_page=1">DTLinkOffice Locations</Link>
+          <a href="https://www.mass.gov/orgs/department-of-transitional-assistance/locations?_page=1">DTLinkOffice Locations</a>
         </p>
       </div>
      {/*} <!-- Grid column -->*/}
@@ -54,16 +54,16 @@ export default class Footer extends Component {
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
         <p>
-          <Link to="https://www.nafcclinics.org/find-clinic">Find Free Clinics</Link>
+          <a href="https://www.nafcclinics.org/find-clinic">Find Free Clinics</a>
         </p>
         <p>
-          <Link to="https://www.va.gov/HOMELESS/NationalCallCenter.asp">Veterans</Link>
+          <a href="https://www.va.gov/HOMELESS/NationalCallCenter.asp">Veterans</a>
         </p>
         <p>
-          <Link to="https://www.thehotline.org/help/path-to-safety/">Domestic Violence</Link>
+          <a href="https://www.thehotline.org/help/path-to-safety/">Domestic Violence</a>
         </p>
         <p>
-          <Link to="https://www.1800runaway.org/">Young Adults & Teens</Link>
+          <a href="https://www.1800runaway.org/">Young Adults & Teens</a>
         </p>
       </div>
 
@@ -101,24 +101,24 @@ export default class Footer extends Component {
         <div className="text-center text-md-right">
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <Link to="https://www.facebook.com/" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.facebook.com/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-facebook-f"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item">
-              <Link to="https://twitter.com/?lang=en" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://twitter.com/?lang=en" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-twitter"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item">
-              <Link to="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F&followup=https%3A%2F%2Fplus.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F&followup=https%3A%2F%2Fplus.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-google-plus-g"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item">
-              <Link to="https://www.linkedin.com/feed/" className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.linkedin.com/feed/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <i className="fab fa-linkedin-in"></i>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
