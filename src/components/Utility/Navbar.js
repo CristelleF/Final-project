@@ -1,8 +1,41 @@
 import React, { Component } from 'react';
+import axios from "axios";
 import {Link} from "react-router-dom";
 
          
 export default class Navbar extends Component {
+  state={
+    username:"",
+    password:""
+}
+
+onChange= e=>{
+    this.setState({
+    [e.target.name]:e.target.value
+    })
+}
+onSubmit= e=>{
+    e.preventDefault();
+    const {username,password}=this.state;
+    const user={
+        username,
+        password
+    }
+    this.setState({
+      username: "",
+      password: ""
+    })
+    this.login(user);
+}
+login=async user=>{
+    const res = await axios.get(`/api/user?username=${user.username}&password=${user.password}`)
+    if(res.data){
+        this.props.history.push(`/user/${res.data._id}`);
+    } else {
+        alert("invalid credential");
+    }
+}
+
     render() {
         return (
             <div>
@@ -37,8 +70,13 @@ export default class Navbar extends Component {
         <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Profile</a>
       </li>
     </ul>
-    <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Username" aria-label="name"/>
+    <form onSubmit={this.onSubmit} className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="text" id="username"  name="username"
+                value={this.state.username}
+                onChange={this.onChange}placeholder="Username" aria-label="name"/>
+      <input className="form-control mr-sm-2" type="text" id="password"  name="password"
+                value={this.state.password}
+                onChange={this.onChange}placeholder="Password" aria-label="name"/>
       <div class="col-auto">
       <div class="form-check mb-2">
         <input class="form-check-input" type="checkbox" id="autoSizingCheck"/>

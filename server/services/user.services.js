@@ -44,6 +44,16 @@ function serializeUser(user, done) {
     }
 
   }
+
+   // users data
+   let users = [
+    {_id: "123", username: "alice", password: "alice", firstName: "Alice", lastName: "Wonder", email: "alice@gmail.com"},
+    {_id: "234", username: "bob", password: "bob", firstName: "Bob", lastName: "Marley", email: "bob@whatever.com"},
+    {_id: "345", username: "charly", password: "charly", firstName: "Charly", lastName: "Garcia", email: "charly@ulem.com"},
+    {_id: "456", username: "shiyu", password: "shiyu", firstName: "Shiyu", lastName: "Wang", email: "swang@ulem.org"},
+    {_id: "274", username:"Cristelle", password:"Cris", firstName:"Cristelle", lastName:"Fofana", email:"telmesumting@gmail.com"}
+]
+
   //Login
   app.post('/api/login', passport.authenticate('local'), (req,res)=>{
       const user=req.user;
@@ -85,20 +95,20 @@ function serializeUser(user, done) {
         res.json(user);
     });
         // login to check user credentials
-       // if(username && password) {
-           // user = users.find((user)=>{
-           //     return user.username === username && user.password === password
-         //   })   
-      //  }
+        if(username && password) {
+            user = users.find((user)=>{
+                return user.username === username && user.password === password
+            })   
+        }
         // check if username is taken
-       // if(username) {
-          //  user = users.find((user)=>{
-           //     return user.username === username
-           // })
-        //}
+        if(username) {
+            user = users.find((user)=>{
+                return user.username === username
+           })
+        }
 
         
-    //}
+    }
 
     // Create new user
     app.post('/api/user', async (req, res) => {
