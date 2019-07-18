@@ -108,7 +108,7 @@ function serializeUser(user, done) {
         }
 
         
-    }
+    
 
     // Create new user
     app.post('/api/user', async (req, res) => {
@@ -136,7 +136,7 @@ function serializeUser(user, done) {
 app.get('/api/users', async(req,res)=>{
   const data = await userModel.FindAllUsers();
   res.json(data);
-});
+})
 
 //Delete user
 app.delete('/api/user/:id', async (req, res)=>{

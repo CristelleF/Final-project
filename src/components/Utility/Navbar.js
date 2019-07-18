@@ -8,25 +8,22 @@ export default class Navbar extends Component {
     username:"",
     password:""
 }
+onSubmit= e=>{
+  e.preventDefault();
+  const {username,password}=this.state;
+  const user={
+    username,
+    password
+  }
+  this.login(user);
+}
 
 onChange= e=>{
     this.setState({
     [e.target.name]:e.target.value
-    })
+    })   
 }
-onSubmit= e=>{
-    e.preventDefault();
-    const {username,password}=this.state;
-    const user={
-        username,
-        password
-    }
-    this.setState({
-      username: "",
-      password: ""
-    })
-    this.login(user);
-}
+
 login=async user=>{
     const res = await axios.get(`/api/user?username=${user.username}&password=${user.password}`)
     if(res.data){
@@ -74,7 +71,7 @@ login=async user=>{
       <input className="form-control mr-sm-2" type="text" id="username"  name="username"
                 value={this.state.username}
                 onChange={this.onChange}placeholder="Username" aria-label="name"/>
-      <input className="form-control mr-sm-2" type="text" id="password"  name="password"
+      <input className="form-control mr-sm-2" type="password" id="password"  name="password"
                 value={this.state.password}
                 onChange={this.onChange}placeholder="Password" aria-label="name"/>
       <div class="col-auto">

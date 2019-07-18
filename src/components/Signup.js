@@ -65,11 +65,27 @@ export default class Signup extends Component {
       </div>
     </div>
   </div>
-  <div className="form-group">
+  
+      {/* <!-- Large modal --> */}
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">  View Terms and Conditions</button>
+
+<div className="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-lg">
+    <div className="modal-content">
+      <h3>Terms and Conditions</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis numquam earum voluptate velit praesentium nesciunt suscipit illum, adipisci eligendi libero accusamus exercitationem minima repellendus provident. Eum, in commodi deleniti ut doloribus reprehenderit ratione. Ut iure consectetur blanditiis neque praesentium eveniet aperiam, tempore perspiciatis laboriosam asperiores cupiditate corrupti nostrum eius!
+      <h5>Privacy Statement</h5>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur deleniti culpa accusantium placeat assumenda quis aut quibusdam ab modi. Eius?
+      <h5>Subscriptions</h5>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex dolor vitae repellendus ipsam architecto!
+    </div>
+  </div>
+</div>
+<div className="form-group">
     <div className="form-check">
       <input className="form-check-input" type="checkbox" value="" id="invalidCheck3" required/>
       <label className="form-check-label" for="invalidCheck3">
-        Agree to terms and conditions
+      Check if you agree 
       </label>
       <div className="invalid-feedback">
         You must agree before submitting.
